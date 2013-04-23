@@ -129,7 +129,7 @@ def saystr(text):
     '''
     words=text.split() #split into list of words
     for word in words:
-        os.system("aplay "+word+".wav") #play corresponding wav file
+        os.system("aplay audio/"+word+".wav") #play corresponding wav file
 
 #===============================MAIN CODE===============================
 
